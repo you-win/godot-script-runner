@@ -8,6 +8,6 @@ This can be used to execute self-updating scripts for an application.
 
 Windows (remove the `.exe` if on Linux)
 ```
-godot-script-runner.exe --file <path_to_gdscript_file>
+godot-script-runner.exe --file <path_to_gdscript_file> --wait <time to wait before killing the process in seconds>
 ```
 
